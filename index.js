@@ -1,5 +1,5 @@
 // 1 Создай переменную alphabet, в которой будет храниться строка с алфавитом, из которых ты будешь генерировать случайное слово.
-const alphabet = 'абвгдеёжзийклмнопрстуфхцчшщъыьэюя';
+const alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
 // 2 Используя объект Math, создай четыре случайных индекса в диапазоне от 0 до длины вашей alphabet.
 const randomIndex1 = Math.floor(Math.random() * alphabet.length);
 const randomIndex2 = Math.floor(Math.random() * alphabet.length);
@@ -11,7 +11,8 @@ const randomLetter2 = alphabet[randomIndex2];
 const randomLetter3 = alphabet[randomIndex3];
 const randomLetter4 = alphabet[randomIndex4];
 
-const randomWord = randomLetter1 + randomLetter2 + randomLetter3 + randomLetter4;
+const randomWord =
+  randomLetter1 + randomLetter2 + randomLetter3 + randomLetter4;
 // 4 Выведи полученное случайное слово на экран, чтобы проверить результат.
 
 console.log(`Случайное слово: ${randomWord}`);
